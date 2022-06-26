@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'strangePhenomena';
+    src : url('police/StrangePhenomena.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'victoriaTypewriter';
+    src : url('police/Victoria_Typewriter_Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pwscratchedfont';
+    src : url('police/PWScratchedfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background: linear-gradient(to left, rgb(141, 168, 95), black);
+}
+
+#bloc_page {
+    padding-top: 10%;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#photo_profil {
+    border: 4px solid black; 
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px black;
+}
+
+aside {
+    flex : 1.2;
+    position : relative;
+    padding : 10px;
+}
+
+h1 {
+    font-family : 'pwscratchedfont';
+    color:black  ;
+    text-align: center;
+    font-size: 3em;
+}
+
+.nom_encadre {
+    background-color: rgb(202, 212, 186);
+    border: 4px solid black; 
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px black;
+    padding: 10px;
+}
+
+p, li {
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'victoriaTypewriter';
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 3px gray
+}
+
+p {
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#profils_liens {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color:black;
+}
+
+@media all and (max-width: 1024px)
+{
+	#photo_profil
+	{
+		display: none;
+	}
+}
