@@ -1,33 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8" />
         <title>vCard Stéphane Dunogué</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />        
     </head>
+    
     <body>
-        <img src="img/profil.jpg" alt="dev profil" title="cliquez pour en savoir plus" />
-        <h1>Stéphane Dunogué</h1>
+        <div id="bloc_page">
+            
+            <div id="photo_profil"><a href="img/fallait_pas_cliquer.png"><img src="img/profil3.jpg" alt="dev profil" title="Ne me cliquez pas dessus merci ..." /></a></div>
+            
+            <aside>
+                <h1><span class="nom_encadre">Stephane Dunogue</span></h1>
+                <p>ASCT en reconversion dans le développement web</p>
 
-        <h2>Motivations</h2>
-        <ul class="motivations">
-            <li>J'aime le travail en équipe</li>
-            <li>Je suis passionné d'escape games et aime résoudre des problèmes</li>
-            <li>Je suis rigoureux et tenace</li>
-            <li>Je crois en ces méthodes de formations et sait qu'elles fonctionnent</li>
-            <li>Je ne suis pas motivé, je suis surmotivé !</li>
-        </ul>
-        
-        <h2>Profils</h2>
-        <ul class="profils">
-            <li><a href="img/openClassRooms.png">Profil OpenClassRooms</a></li>
-            <li><a href="https://edabit.com/user/7KPHChyN6j7dZokZK">Profil Edabit</a></li>
-            <li><a href="contact.html">Profil Github</a></li>
-            <li><a href="http://wcstechchallenge.fr/index.html">Tech Challenge WCS</a></li>
-            <li><a href="https://fr.linkedin.com/in/st%C3%A9phane-dunogu%C3%A9-413652226">Profil Linkedin</a></li>
-            <li><a href="img/silentTeacher.png">Algorithmique Silent Teacher</a></li>
-            <li><a href="img/compute_it.png">Algorithmique Compute-it</a></li>
-            <li><a href="img/udemy.png">Profil Udemy</a></li>
-        </ul>
+                <h2>Motivations</h2>
+                <ul id="motivations">
+                    <li>J'aime le travail en équipe.</li>
+                    <li>Je suis passionné d'escape games et aime résoudre des problèmes.</li>
+                    <li>Je suis rigoureux et tenace.</li>
+                    <li>Je crois en ces méthodes de formations et sais qu'elles fonctionnent.</li>
+                    <li>Je ne suis pas motivé, je suis surmotivé !</li>
+                </ul>
+                
+                <h2>Profils</h2>
+                <div id="profils_liens">
+                    <ul id="profils">
+                        <li><a href="img/openClassRooms.png">Profil OpenClassRooms</a></li>
+                        <li><a href="https://edabit.com/user/7KPHChyN6j7dZokZK">Profil Edabit</a></li>
+                        <li><a href="https://github.com/Actarus7">Profil Github</a></li>
+                        <li><a href="https://fr.linkedin.com/in/st%C3%A9phane-dunogu%C3%A9-413652226">Profil Linkedin</a></li>
+                        <li><a href="img/udemy.png">Profil Udemy</a></li>
+                    </ul>
+
+                    <ul id="liens">
+                        <li><a href="http://wcstechchallenge.fr/index.html">Tech Challenge WCS</a></li>
+                        <li><a href="img/silentTeacher.png">Algorithmique Silent Teacher</a></li>
+                        <li><a href="img/compute_it.png">Algorithmique Compute-it</a></li>
+                        <li><a href="img/blocky_games.png">Blocky Games</a></li>
+                        <li><a href="img/codingame.png">Codin Game</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
     </body>
 
 </html>
